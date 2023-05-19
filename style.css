@@ -1,51 +1,48 @@
 @font-face {
-    font-family: 'Archive-Black';
-    src: url('fonts/Archivo-Black.woff2') format('woff2'),
-         url('fonts/Archivo-Black.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}  
-
+  font-family: "Archive-Black";
+  src: url("fonts/Archivo-Black.woff2") format("woff2"), url("fonts/Archivo-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .main-border {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 10px solid #4200FF;
-    margin: 20px;
-    z-index: 9999;
-    color: #4200FF;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid #4200FF;
+  margin: 20px;
+  z-index: 9999;
+  color: #4200FF;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Archive-Black', Arial, sans-serif;
-    font-size: 45px;
-    letter-spacing: 0.22em;
-    line-height: 49px;
-    margin: 0;
-    padding-left: 5px;
+  font-family: "Archive-Black", Arial, sans-serif;
+  font-size: 45px;
+  letter-spacing: 0.22em;
+  line-height: 49px;
+  margin: 0;
+  padding-left: 5px;
 }
 
 footer {
-    overflow: hidden;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
 }
-
 
 .space_x1 {
-    letter-spacing: 0.27em;
+  letter-spacing: 0.27em;
 }
 
-
-
-
-body { margin: 20px; }
+body {
+  margin: 20px;
+}
 
 .marquee {
   height: 25px;
   width: 420px;
-
   overflow: hidden;
   position: relative;
 }
@@ -54,10 +51,8 @@ body { margin: 20px; }
   display: block;
   width: 200%;
   height: 30px;
-
   position: absolute;
   overflow: hidden;
-
   animation: marquee 5s linear infinite;
 }
 
@@ -67,6 +62,12 @@ body { margin: 20px; }
 }
 
 @keyframes marquee {
-  0% { left: 0; }
-  100% { left: -100%; }
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
