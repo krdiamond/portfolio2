@@ -1,6 +1,12 @@
 @font-face {
-  font-family: "Archive-Black";
+  font-family: "Archivo-Black";
   src: url("fonts/Archivo-Black.woff2") format("woff2"), url("fonts/Archivo-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alata-Regular";
+  src: url("fonts/Alata-Regular.woff2") format("woff2"), url("fonts/Alata-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +25,7 @@
 }
 
 h1 {
-  font-family: "Archive-Black", Arial, sans-serif;
+  font-family: "Archivo-Black", Arial, sans-serif;
   letter-spacing: 0.22em;
   line-height: 1;
   margin: 0;
@@ -29,7 +35,7 @@ h1 {
 }
 @media screen and (min-width: 200px) and (max-width: 768px) {
   h1 {
-    font-size: calc(18px + 26 * (100vw - 200px) / 180);
+    font-size: calc(18px + 81 * (100vw - 200px) / 568);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
@@ -45,10 +51,22 @@ h1 {
   }
 }
 
+h2 {
+  font-family: "Alata-Regular", Arial, sans-serif;
+  margin-top: 5px;
+  font-size: 8px;
+}
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  h2 {
+    font-size: calc(8px + 32 * (100vw - 200px) / 180);
+  }
+}
+
 footer {
-  overflow: hidden;
   position: absolute;
   bottom: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 .space_x1 {
@@ -62,8 +80,6 @@ body {
 .marquee {
   height: 25px;
   width: 420px;
-  overflow: hidden;
-  position: relative;
 }
 
 .marquee div {
