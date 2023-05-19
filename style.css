@@ -58,7 +58,17 @@ h2 {
 }
 @media screen and (min-width: 200px) and (max-width: 768px) {
   h2 {
-    font-size: calc(8px + 32 * (100vw - 200px) / 180);
+    font-size: calc(8px + 32 * (100vw - 200px) / 568);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  h2 {
+    font-size: calc(40px + 37 * (100vw - 768px) / 672);
+  }
+}
+@media screen and (min-width: 1440px) {
+  h2 {
+    font-size: calc(77px + 31 * (100vw - 1440px) / 560);
   }
 }
 
