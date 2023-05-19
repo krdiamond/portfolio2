@@ -15,15 +15,34 @@
   z-index: 9999;
   color: #4200FF;
   text-align: center;
+  min-width: 140px;
 }
 
 h1 {
   font-family: "Archive-Black", Arial, sans-serif;
-  font-size: 45px;
   letter-spacing: 0.22em;
-  line-height: 49px;
+  line-height: 1;
   margin: 0;
   padding-left: 5px;
+  padding-top: 3px;
+  font-size: 18px;
+}
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  h1 {
+    font-size: calc(18px + 26 * (100vw - 200px) / 180);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  h1 {
+    padding: 5px 20px;
+    font-size: calc(95px + 96 * (100vw - 768px) / 672);
+  }
+}
+@media screen and (min-width: 1440px) {
+  h1 {
+    padding: 5px 20px;
+    font-size: calc(191px + 80 * (100vw - 1440px) / 560);
+  }
 }
 
 footer {
