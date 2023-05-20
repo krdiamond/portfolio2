@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Archivo-Black";
+  src: url("fonts/Archivo-Black.woff2") format("woff2"), url("fonts/Archivo-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Alata-Regular";
+  src: url("fonts/Alata-Regular.woff2") format("woff2"), url("fonts/Alata-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.hide {
+  display: none;
+}
+
+.position--absolute {
+  position: absolute;
+}
+
+.right--0 {
+  right: 0;
+}
+
+.padding--20 {
+  padding: 20px;
+}
+
+.margin-top---5 {
+  margin-top: -5px;
+}
+
+.space_x1 {
+  letter-spacing: 0.27em;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=utilities.css.map */

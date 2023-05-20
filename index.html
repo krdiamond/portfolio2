@@ -4,32 +4,90 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kristina Diamond, web developer">
-	<title>Headless</title>
+	<title>Kristina Diamond</title>
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script async src="script.js"></script>
-	<link async rel="stylesheet" href="style.css">
+	<link async rel="stylesheet" href="style/style.css">
+    <link async rel="stylesheet" href="style/utilities.css">
 </head>
 <body class="main-border">
-	<header>
-        <h1>
-            <span>KRISTINA</span>
-            <span class="space_x1">DIAMOND</span>
-        </h1>
-        <h2>web developer, specializing in all things shopify and e-commerce</h2>
-	</header>
-	<main>
-		<section>
+    <div id="home" class="container">
+        <header>
+            <h1>
+                <span>KRISTINA</span>
+                <span class="space_x1">DIAMOND</span>
+            </h1>
+            <h2>web developer, specializing in all things shopify and e-commerce</h2>
+        </header>
+        <main>
+            <button id="portfolioButton">portfolio</button>  
+        </main>
+    </div>
+    <div id="portfolio" class="portfolio container hide" >
+        <button id="closeButton" class="position--absolute right--0 padding--20">        
+            <img src="x.svg"  title="Close Portfolio" width="30">
+        </button>
+        <div>
             
-		</section>
-	</main>
-	<footer>
-        <div class="marquee">
-            <div>
-              <span>You spin me right round, baby. Like a record, baby.</span>
-              <span>You spin me right round, baby. Like a record, baby.</span>
-            </div>
-          </div>
-		<!-- <p>&copy; 2023 My Website. All Rights Reserved.</p> -->
-	</footer>
+        </div>
+    </div>
+    <footer>
+    </footer>
 </body>
 </html>
+
+
+
+
+
+
+<!-- <a class="no-underline" href="https://github.com/krdiamond" target="_blank" aria-label="Link to Kristina Diamond's Github">
+                <div class="gitHub link-icon"></div>
+            </a>
+            <a class="no-underline" href="KristinaDiamondResume.pdf" download target="_blank" aria-label="View Kristina Diamond's Resume">
+                <div class="link-icon margin-top---5">🧻</div>
+            </a>
+            <a class="no-underline" href="https://www.linkedin.com/in/kristinadiamond" target="_blank" aria-label="Link to Kristina Diamond's Linkedin">
+                <div class="linkedIn link-icon"></div>
+            </a>
+            <a class="no-underline" href="https://mail.google.com/mail/?view=cm&to=krdiamond@gmail.com"  target="_blank" aria-label="Write an Email to Kristina Diamond, This will open a new message in gmail">
+                <div class="link-icon margin-top---5">✉️</div>
+            </a>  -->
+
+            <!-- <h6 class="text-align--center padding-bottom--10 padding-top--10 gutters--20">
+                ｡･:
+                <a href="https://www.linkedin.com/in/kristinadiamond/">
+                  <svg class="width--20" viewBox="0 0 32 32"><path d="M16 0C7.164 0 0 7.163 0 16c0 8.836 7.164 16 16 16s16-7.164 16-16c0-8.837-7.164-16-16-16zm-4.156 22.277H8.58v-9.82h3.264v9.82zm-1.632-11.161h-.021c-1.096 0-1.804-.755-1.804-1.697 0-.963.73-1.696 1.846-1.696s1.804.733 1.825 1.696c0 .943-.709 1.697-1.846 1.697zm13.401 11.161h-3.264v-5.254c0-1.32-.472-2.22-1.654-2.22-.901 0-1.438.607-1.674 1.194-.086.21-.108.503-.108.796v5.484H13.65s.043-8.898 0-9.82h3.264v1.391c.433-.669 1.209-1.622 2.942-1.622 2.147 0 3.757 1.404 3.757 4.42v5.631z"/></svg>
+                </a>
+                *˚✧｡☀︎⋆⁺₊⋆☾⋆⁺₊⋆☁︎ ｡･:
+                <a href="https://github.com/krdiamond">
+                  <svg class="width--20" enable-background="new 0 0 32 32" viewBox="0 0 32 32"><path d="M16,0C7.163,0,0,7.163,0,16c0,8.837,7.164,16,16,16c8.837,0,16-7.163,16-16C32,7.163,24.837,0,16,0z M18.067,18.96    c0.333,0.289,0.592,1.308,0.592,1.776v4.144h-2.365h-2.368c0,0,0.007-1.405,0-2.368c-3.24,0.697-4.144-1.776-4.144-1.776    C9.19,19.552,8.598,18.96,8.598,18.96c-1.184-0.703,0-0.592,0-0.592c1.184,0,1.776,1.184,1.776,1.184    c1.039,1.764,2.888,1.48,3.552,1.184c0-0.592,0.259-1.487,0.592-1.776c-2.586-0.291-4.738-1.776-4.738-4.736    c0-2.96,0.594-3.552,1.186-4.144c-0.12-0.292-0.615-1.37,0.018-2.96c0,0,1.163,0,2.347,1.776c0.587-0.587,2.368-0.592,2.961-0.592    c0.591,0,2.373,0.005,2.959,0.592c1.184-1.776,2.35-1.776,2.35-1.776c0.633,1.59,0.138,2.668,0.018,2.96 c0.592,0.592,1.184,1.184,1.184,4.144C22.804,17.184,20.654,18.669,18.067,18.96z"/></svg>
+                </a>
+                ˚:✧｡
+              </h6> -->
+
+
+
+
+                         <!-- <section class="marquee-wrapper">
+                <div class="marquee" style="animation-duration: 5s;">
+                    <a target="_blank"><img src="clientSVGs/ossa.svg" title="OSSA NEW YORK" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/sleepme.svg" title="Sleep.me" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/plantpeople.svg" title="Sleep.me" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/woosh.svg" title="Woosh Beauty" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/rosettagetty.svg" title="Rosetta Getty" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/cometees.svg" title="Come Tees" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/deltachildren.svg" title="Come Tees" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/mzd.svg" title="Come Tees" style="width: auto; max-width: none;"></a>
+                </div>
+                <div class="marquee" style="animation-duration: 5s;">
+                    <a target="_blank"><img src="clientSVGs/ossa.svg" title="" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/sleepme.svg" title="Sleep.me" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/plantpeople.svg" title="Sleep.me" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/woosh.svg" title="Woosh Beauty" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/rosettagetty.svg" title="Rosetta Getty" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/cometees.svg" title="Come Tees" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/deltachildren.svg" title="Come Tees" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="clientSVGs/mzd.svg" title="Come Tees" style="width: auto; max-width: none;"></a>
+                </div>
+            </section> -->
